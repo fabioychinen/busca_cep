@@ -4,9 +4,7 @@ import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  const keyApplicationId = 'AVjYk1036vdzcGPgoM1OBt3mw36FwCOnzgdipwAQ';
-  const keyClientKey = 'VMV5n321JZcKCCqzzpvny5W6SAN4pUOE2bATkYNK';
-  const keyParseServerUrl = 'https://parseapi.back4app.com/classes/CEP';
+
 
   await Parse().initialize(
     keyApplicationId,
