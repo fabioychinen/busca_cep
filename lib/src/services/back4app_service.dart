@@ -2,9 +2,7 @@ import 'package:dio/dio.dart';
 
 class Back4AppService {
   final Dio _dio = Dio();
-  final String _appId = 'AVjYk1036vdzcGPgoM1OBt3mw36FwCOnzgdipwAQ';
-  final String _clientKey = 'VMV5n321JZcKCCqzzpvny5W6SAN4pUOE2bATkYNK';
-  final String _baseUrl = 'https://parseapi.back4app.com/classes/CEP';
+
 
   Future<void> cadastrarCEP(Map<String, dynamic> cepData) async {
     try {
